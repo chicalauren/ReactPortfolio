@@ -1,6 +1,14 @@
 // imports
 import React from 'react';
-import ReactDom from 'react-dom/client';
+import { createRoot } from 'react-dom/client'; // Updated import
+import { Routes, Route } from 'react-router-dom';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import About from './Pages/About';
+import Portfolio from './Pages/Portfolio';
+import Contact from './Pages/Contact';
+import Resume from './Pages/Resume';
+
 
 // components
 function App() {
@@ -20,10 +28,13 @@ function App() {
   );
 }
 
-// render
-ReactDOM.createRoot(document.getElementById('root')).render(
-    <RouterProvider router={router} />
-  );
+// commenting out
+// ReactDOM.createRoot(document.getElementById('root')).render(
+   // <RouterProvider router={router} />
+ // );
+
+const root = createRoot(document.getElementById('root')); // Updated line
+root.render(<App />); // Updated line
 
   // export
   export default App;
