@@ -1,5 +1,6 @@
 //imports
 import React, {useState} from "react";
+import "../App.css";
 
 
 //component
@@ -39,38 +40,51 @@ function Contact() {
 
     //return items
     return (
+        <div class="mx-auto p-2 text-align-center" >
         <selection className="contact">
             <h1>Contact Me</h1>
             <form onSubmit={handleSubmit}>
+                <div class="mb-3a text-center" >
                 <label htmlFor="name">Name:</label>
                 <input
                     type="text"
+                    class="form-control"
                     id="name"
                     name="name"
                     value={formData.name}
                     onChange={handleChange}
                 />
                 {errors.name && <p className="error">{errors.name}</p>}
+                </div>
+                <div class="mb-3 text-center">
                 <label htmlFor="email">Email:</label>
                 <input
                     type="email"
+                    class="form-control"
                     id="email"
                     name="email"
                     value={formData.email}
                     onChange={handleChange}
                 />
                 {errors.email && <p className="error">{errors.email}</p>}
+                </div>
+                <div class="mb-3 text-center">
                 <label htmlFor="message">Message:</label>
                 <textarea
                     id="message"
+                    class="form-control"
                     name="message"
                     value={formData.message}
                     onChange={handleChange}
                 />
                 {errors.message && <p className="error">{errors.message}</p>}
-                <button type="submit">Submit</button>
+                </div>
+                <div class="d-grid gap-2">
+                <button class="btn btn-secondary btn-lg " type="submit">Submit</button>
+                </div>
             </form>
         </selection>
+        </div>
     );
 }
 

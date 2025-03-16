@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Style */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center; /* Default text alignment */
+}
+
+/* Header Style */
+header {
+    background: #b098b8; /* Header color */
+    color: #ffffff;
+    padding: 20px 0;  /* Increased padding */
+    text-align: center; /* Centered text */
+}
+
+/* Main Heading */
+h1 {
+    font-size: 2.5em;
+    margin: 20px 0;  /* Increased margin */
+    padding: 10px;   /* Added padding */
+    text-align: center; /* Centered text */
+}
+
+/* Subheading */
+h2 {
+    font-size: 2em;
+    margin: 15px 0;  /* Increased margin */
+    padding: 10px;   /* Added padding */
+    text-align: center; /* Centered text */
+}
+
+/* Third-Level Heading */
+h3 {
+    font-size: 1.75em; /* Adjusted font size */
+    margin: 15px 0;  /* Increased margin */
+    padding: 10px;   /* Added padding */
+    text-align: center; /* Centered text */
+}
+
+/* Paragraph Style */
+p {
+    margin: 20px 0;  /* Increased margin */
+    padding: 10px;   /* Added padding */
+    text-align: center; /* Centered text */
+}
+
+/* Link Style */
+a {
+    color: #b098b8;
+    text-decoration: none;
+    display: inline-block; /* Allows centering */
+    margin: 0 10px; /* Adds some spacing between links */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Button Style */
+.button {
+    display: inline-block;
+    background: #e8491d;
+    color: white;
+    padding: 15px 30px;  /* Increased padding */
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1em;
+    cursor: pointer;
+    margin: 20px 0; /* Added margin for spacing */
+}
+
+.button:hover {
+    background: #d73814;
+}
+
+/* Footer Style */
+footer {
+    background: #ffffff; /* Changed footer color to white */
+    color: #333; /* Text color for better contrast */
+    text-align: center; /* Centered text */
+    padding: 20px 0;  /* Increased padding */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
