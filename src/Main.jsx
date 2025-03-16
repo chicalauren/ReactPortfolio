@@ -1,29 +1,10 @@
-// imports
+//input
 import React from 'react';
-import ReactDom from 'react-dom/client';
+import App from './App'; // Updated line
+import { createRoot } from 'react-dom/client'; // Updated import
 
-// components
-function App() {
-  return (
-    <div>
-    <Header />
-      <main>
-        <Routes>
-          <Route path="/" element={<About />} />
-          <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/resume" element={<Resume />} />
-        </Routes>
-      </main>
-      <Footer />
-      </div>
-  );
-}
-
-// render
-ReactDOM.createRoot(document.getElementById('root')).render(
-    <RouterProvider router={router} />
-  );
+const root = createRoot(document.getElementById('root')); // Updated line
+root.render(<App />); // Updated line
 
   // export
   export default App;
