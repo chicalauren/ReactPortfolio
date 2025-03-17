@@ -1,8 +1,8 @@
 /// imports
 import React from 'react';
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
-import Header from './components/Header';
-import Footer from './components/Footer';
+import Header from './Components/Header';
+import Footer from './Components/Footer';
 import About from './Pages/About';
 import Portfolio from './Pages/Portfolio';
 import Contact from './Pages/Contact';
