@@ -1,4 +1,4 @@
-#React Portfolio
+# React Portfolio
 
 Welcome to my portfolio! This project is built with React and Vite and showcases my professional skills.
 
