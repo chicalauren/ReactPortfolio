@@ -3,8 +3,11 @@
 Welcome to my portfolio! This project is built with React and Vite and showcases my professional skills.
 
 ## **Site**
-[[[View on Site]([url](https://lbreactportfolio.netlify.app/))] 
-]([url](https://lbreactportfolio.netlify.app/))
+([View on Site](https://lbreactportfolio.netlify.app/))
+
+## **Preview**
+![image](https://github.com/user-attachments/assets/1fa00627-18f9-4a94-9003-446d6c277cf7)
+
 
 ## **Table of Contents**
 - [Technology Used](#-technologies-used)
