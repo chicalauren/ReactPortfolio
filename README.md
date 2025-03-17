@@ -1,15 +1,12 @@
 # # React Portfolio
 
-Welcome to my personal portfolio! This project is built with React and Vite and is a showcase of my professional skills.
+Welcome to my portfolio! This project is built with React and Vite and showcases my professional skills.
 
 ## ** Site**
 [View on Site] 
+]([url](https://lbreactportfolio.netlify.app/))---
 
-## ** Demo**
-
----
-
-## 📌 **Table of Contents**
+## **Table of Contents**
 - [Technology Used](#-technologies-used)
 - [Screenshots](#-screenshots)
 - [Installation](#-installation)
