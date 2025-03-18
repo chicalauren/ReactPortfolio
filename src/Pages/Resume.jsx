@@ -1,13 +1,14 @@
 // imports
 import React from 'react';
 import '../App.css';
+import resume from '../assets/resume.pdf';
 
 // component
 function Resume () {
     return (
       <section>
         <h2>Resume</h2>
-        <a class="position-relative py-2 px-4 text-bg-secondary border border-secondary rounded-pill d-flex justify-content-center" href="../assets/resume.pdf" download>Download Resume</a>
+        <a class="position-relative py-2 px-4 text-bg-secondary border border-secondary rounded-pill d-flex justify-content-center" href={resume} download>Download Resume</a>
   
         {/* Skills List */}
         <div className="skills-container">
