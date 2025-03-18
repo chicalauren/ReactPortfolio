@@ -11,12 +11,8 @@ Welcome to my portfolio! This project is built with React and Vite and showcases
 
 ## **Table of Contents**
 - [Technology Used](#-technologies-used)
-- [Screenshots](#-screenshots)
 - [Installation](#-installation)
 - [Project Structure](#-project-structure)
-- [Deployment](#-deployment)
-- [Contact](#-contact)
-
 ---
 
 ## **Technology Used**
