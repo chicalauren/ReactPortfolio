@@ -1,6 +1,7 @@
 // imports
 import React from "react";
 import '../App.css';
+import lauren from '../assets/lauren.jpg';
 
 
 // component
@@ -8,7 +9,7 @@ function About() {
     return (
         <div>
             <h1>About Me</h1>
-            <img src="./assets/lauren.jpg" class="rounded mx-auto d-block modal-dialog modal-sm" alt="Lauren Brown" />
+            <img src={lauren} class="rounded mx-auto d-block modal-dialog modal-sm" alt="Lauren Brown" />
             <p class="text-center">
                 Hi, my name is Lauren. 
                 I'm a web developer with a passion for coding. 
